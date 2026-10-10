@@ -97,6 +97,20 @@ python multimodal_omics_imputation.py
 
 Outputs are written to `results/` and `figures/`.
 
+
+## Example outputs
+
+The results and figures included in this repository were generated using the
+`--quick` option and are provided as a demonstration that the analysis pipeline
+runs successfully. These example outputs use 10% missingness, the plasma-only
+predictor set, and two evaluation seeds (11 and 12).
+
+The full analysis implemented in the script evaluates 10%, 30%, and 50%
+missingness across 20 seeds (11–30) and multiple predictor configurations.
+Because the full benchmark is computationally intensive, its outputs are not
+included in this repository.
+
+
 ## Technical skills demonstrated
 
 - Python
